@@ -1,10 +1,9 @@
-/** @type {import('tailwindcss').Config} */
-const config = {
-  darkMode: 'class',
+module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,vue}"
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -57,5 +56,3 @@ const config = {
   },
   plugins: [],
 }
-
-module.exports = config
